@@ -8,7 +8,7 @@ export default makeStyles( theme =>({
     margin: 'auto',
   },
   tittle: {
-
+    marginRight: 190
   },
   menu: {
     display: 'flex',

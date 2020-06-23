@@ -2,13 +2,13 @@ import React from 'react';
 
 import useStyles from './__styles_';
 
-const Header = ({ menu={} }) => {
+const Header = ({ tittle= null, menu={} }) => {
   const styles = useStyles();
 
   return(
       <header className={styles.head}>
         <div className={styles.tittle}>
-          <h3>my_web</h3>
+          <h3>{tittle}</h3>
         </div>
         <nav className={styles.menu}>
           <ul>
